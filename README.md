@@ -32,6 +32,12 @@ source /usr/local/share/ca350/bin/activate.csh
 sudo pip3 install paho-mqtt pyserial
 deactivate
 ```
+Please note this command varies depending on your terminal. For bash the command would be:
+```
+source /usr/local/share/ca350/bin/activate
+sudo pip3 install paho-mqtt pyserial
+deactivate
+```
 6. Copy rc.d/ca350 script to the directory:
 `/usr/local/etc/rc.d/`
 7. Enable the service:
